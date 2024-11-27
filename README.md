@@ -11,45 +11,4 @@ Onelink is an experimental link-in-bio tool, where the data lives in the URL.
 Here's a demo page
 https://linktreexo.netlify.app/
 
-The data is converted to a base 64 string which we onelink uses as a query parameter. I have tried to reduce the json keys to be as small as possible
 
-Roadmap.
-1. Templates - make different templates, the `/1` after the host is basically a template here.
-2. Refactor code - a lot of repeated boilerplate code is added here - refactor it properly.
-
-## Setup locally
-
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
